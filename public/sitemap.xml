@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!--  created with sitemap generator https://octopus.do  -->
+    <url>
+        <loc>https://www.trybookinz.com</loc>
+        <lastmod>2023-02-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.trybookinz.com/login</loc>
+        <lastmod>2023-02-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.trybookinz.com/signup</loc>
+        <lastmod>2023-02-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.trybookinz.com/booking</loc>
+        <lastmod>2023-02-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.trybookinz.com/howitworks</loc>
+        <lastmod>2023-02-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.trybookinz.com/contact-us</loc>
+        <lastmod>2023-02-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.trybookinz.com/about</loc>
+        <lastmod>2023-02-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.trybookinz.com/blog</loc>
+        <lastmod>2023-02-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>

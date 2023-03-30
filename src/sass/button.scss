@@ -1,0 +1,37 @@
+.btn {
+  @apply flex items-center justify-center rounded-lg;
+
+  &__primary {
+    background: #0559FD;
+    color: #fff !important;
+    fill: #fff;
+    
+
+    &--outline {
+      border: 1px solid #0559FD;
+      color: #0559FD;
+    }
+  }
+
+  
+}
+
+.primary {
+  background: #0559FD;
+  color: #fff !important;
+}
+
+.outline {
+   border: 1px solid #141115;
+}
+
+.tertiary {
+  background: #011936;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 100%;
+  }
+}
