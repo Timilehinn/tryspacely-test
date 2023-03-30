@@ -27,7 +27,7 @@ const Homepage = () => {
            workspaces in lekki, workspace table'
         />
       </Helmet>
-      <Suspense fallback={<p> Loading...</p>}>
+      {/* <Suspense fallback={<p> Loading...</p>}> */}
         <HeaderComponent />
         <div className='relative'>
           <div className='home opacity-40'></div>
@@ -57,7 +57,7 @@ const Homepage = () => {
           <FooterComponent />
           <FooterlinkComponent />
         </Zoom>
-      </Suspense>
+      {/* </Suspense> */}
     </div>
   )
 }

@@ -245,42 +245,42 @@ function App() {
         <Route
           path='/'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <HomeComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/login'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <LoginComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/signup'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <SignupComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/forgetpassword'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <ForgetPasswordComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         {!isProtected && (
           <Route
             path={pathname}
             element={
-              <Suspense fallback='Loading...'>
+              // <Suspense fallback='Loading...'>
                 <ResetPasswordComponent />
-              </Suspense>
+              // </Suspense>
             }
           />
         )}
@@ -288,132 +288,132 @@ function App() {
         <Route
           path='/about'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <AboutComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/blog'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <BlogComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
 
         <Route
           path='/contact-us'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <ContactPageComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
 
         <Route
           path='/blogId'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <BlogDetailsComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/booking'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <BookIndexComponent />
-            </Suspense>
+            // </Suspense>
           }
         >
           <Route
             index
             element={
-              <Suspense fallback='Loading...'>
+              // <Suspense fallback='Loading...'>
                 <BookListComponent />
-              </Suspense>
+              // </Suspense>
             }
           />
           <Route
             path=':id'
             element={
-              <Suspense fallback='Loading...'>
+              // <Suspense fallback='Loading...'>
                 <SpaceDetailsComponent />
-              </Suspense>
+              // </Suspense>
             }
           />
           <Route
             path=':id/payment'
             element={
-              <Suspense fallback='Loading...'>
+              // <Suspense fallback='Loading...'>
                 <PaymentComponent />
-              </Suspense>
+              // </Suspense>
             }
           />
         </Route>
         <Route
           path='/booking/payment/status'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <PaymentSuccessfulComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/space/:id/reviews'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <SpaceReviewComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/howitworks'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <HowitWorkComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/helpcenter'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <HelpCenterComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/sitemap'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <SitemapComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/viewallreviews'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <ReviewsComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/tandc'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <TermsComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route
           path='/addspace'
           element={
-            <Suspense fallback='Loading...'>
+            // <Suspense fallback='Loading...'>
               <AddSpaceComponent />
-            </Suspense>
+            // </Suspense>
           }
         />
         <Route path='/space/owner-kyc' element={<KYC />} />
