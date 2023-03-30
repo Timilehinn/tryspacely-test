@@ -94,13 +94,13 @@ module.exports = {
       template: path.join(__dirname, 'public', 'index.html'),
     }),
     new Dotenv(),
-    new CompressionPlugin({
-      test: /\.js(\?.*)?$/i,
-      filename: "[name].bundle.js.gz",
-      algorithm: "gzip",
-      deleteOriginalAssets: false
-    }),
-    new BundleAnalyzerPlugin(),
+    // new CompressionPlugin({
+    //   test: /\.js(\?.*)?$/i,
+    //   filename: "[name].bundle.js.gz",
+    //   algorithm: "gzip",
+    //   deleteOriginalAssets: false
+    // }),
+    // new BundleAnalyzerPlugin(),
     //new MiniCssExtractPlugin(),
   ],
 }
